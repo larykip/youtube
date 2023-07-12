@@ -1,0 +1,35 @@
+.btn{
+    display: block;
+    margin-top: 6px;
+    border-radius: 6px;
+    text-align: center;
+    width: 278px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(93, 93, 235);
+    border: none;
+}
+.text-label{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    width: 120px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+}
+.email-label{
+    display: block;
+    margin-top: 7px;
+    width: 262px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+}
