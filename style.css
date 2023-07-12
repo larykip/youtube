@@ -1,27 +1,30 @@
-.search-bar{
-    display: block;
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }
 .video-preview{
-    width: 300px;
-    display: inline-block;
-    margin-right: 12px;
     vertical-align: top;
+    height: 400px;
 }
 .thumbnail{
-    width: 300px;
+    width: 100%;
+}
+.video-desc{
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 .channel-pic{
-    display: inline-block;
-    width: 50px;
     vertical-align: top;
     padding-top: 15px;
 }
 .profile-pic{
     width: 100% ;
+    border-radius: 50%;
 }
 .video-info{
-    display: inline-block;
-    width: 200px;
+    background-color: gray;
 }
 .video-title{
     font-size: 14px;
